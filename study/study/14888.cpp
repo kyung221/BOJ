@@ -8,7 +8,7 @@
 //	int opt[10];//+ - * /
 //	int max = -1000000000;
 //	int min = 1000000000;
-//	int k, l=0;
+//	int k, l = 0;
 //	cin >> num;
 //
 //	for (int i = 0; i < num; i++)
@@ -26,10 +26,10 @@
 //			if (opt[i] == 2) temp *= arr[i + 1];
 //			if (opt[i] == 3) temp /= arr[i + 1];
 //		}
-//		max = max > temp? max:temp;
-//		min = min > temp? temp:min;
+//		max = max > temp ? max : temp;
+//		min = min > temp ? temp : min;
 //	} while (next_permutation(opt, opt + num - 1));
 //
-//	cout << max << "\n" << min <<"\n";
-//	
+//	cout << max << "\n" << min << "\n";
+//
 //}
