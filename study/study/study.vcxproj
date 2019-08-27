@@ -141,7 +141,10 @@
   <ItemGroup>
     <ClCompile Include="10773.cpp" />
     <ClCompile Include="14888.cpp" />
-    <ClCompile Include="1874.cpp" />
+    <ClCompile Include="17298.cpp" />
+    <ClCompile Include="1874.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="4344.cpp" />
     <ClCompile Include="4949.cpp" />
   </ItemGroup>
