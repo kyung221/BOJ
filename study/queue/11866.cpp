@@ -11,7 +11,7 @@ int main() {
 		q.push(i);
 	}
 
-	//¿øÇü Å¥¸¦ ¸¸µé¾î ÇØ°á
+	//원형 큐
 	while (!q.empty()) {
 		for (int i = 0; i < k - 1; i++) {
 			q.push(q.front());
