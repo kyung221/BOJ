@@ -16,5 +16,5 @@ int main() {
 		q.pop();
 		q.push(k);
 	}
-	cout << q.front()<<'\n';
+	cout << q.front() << '\n';
 }

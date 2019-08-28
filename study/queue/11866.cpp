@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <queue>
 #include <vector>
 using namespace std;
@@ -11,7 +11,7 @@ int main() {
 		q.push(i);
 	}
 
-	//¿øÇü Å¥¸¦ ¸¸µé¾î ÇØ°á
+	//Â¿Ã¸Ã‡Ã¼ Ã…Â¥Â¸Â¦ Â¸Â¸ÂµÃ©Â¾Ã® Ã‡Ã˜Â°Ã¡
 	while (!q.empty()) {
 		for (int i = 0; i < k - 1; i++) {
 			q.push(q.front());
@@ -28,4 +28,3 @@ int main() {
 	}
 	cout << ">\n";
 }
-
