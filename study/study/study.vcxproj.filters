@@ -42,5 +42,8 @@
     <ClCompile Include="11866.cpp">
       <Filter>소스 파일\queue</Filter>
     </ClCompile>
+    <ClCompile Include="1966.cpp">
+      <Filter>소스 파일\queue</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
