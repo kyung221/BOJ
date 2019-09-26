@@ -149,6 +149,7 @@
     </ClCompile>
     <ClCompile Include="4344.cpp" />
     <ClCompile Include="4949.cpp" />
+    <ClCompile Include="NHN.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
